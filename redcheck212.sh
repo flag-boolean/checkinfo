@@ -4,6 +4,7 @@
 #chmod 777 -R /redcheck
 #Проверить названия файлов - они отличаются в зависимости от версии
 #не забыть сделать активным сам скрипт ---> chmod +x redcheck212.sh
+# Скрипт redcheck212.sh - может лежать где угодно, но можно положить рядом с остальными файлами в папке /redcheck
 set -e
 sudo bash -c 'cat >> /etc/apt/sources.list <<EOF
 deb https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/ 1.7_x86-64 astra-ce main contrib non-free
