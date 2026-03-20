@@ -2,6 +2,7 @@
 #mkdir /redcheck
 #Выгрузить файлы redcheck-astra1.7-repo-2.12.0.20663.tar.gz и redcheck-compatibility-repo-astra-1.7+2.12.6.tar.gz в папку /redcheck --> mv /..../redcheck-astra1.7-repo-2.12.0.20663.tar.gz /redcheck  mv /..../redcheck-compatibility-repo-astra-1.7+2.12.6.tar.gz /redcheck
 #chmod 777 -R /redcheck
+#Проверить названия файлов - они отличаются в зависимости от версии
 set -e
 sudo bash -c 'cat >> /etc/apt/sources.list <<EOF
 deb https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/ 1.7_x86-64 astra-ce main contrib non-free
